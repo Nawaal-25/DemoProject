@@ -1,0 +1,31 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+            const users=[
+            {name:'John',age:28},
+            {name:'Mary',age:35},
+            {name:'Harry',age:22},
+            {name:'Emily',age:40},
+            {name:'Don',age:19}
+            ];
+
+            for(let i=0; i<users.length;i++)
+            {
+                if(users[i].age<30)
+                {
+                    document.write(`Name : ${users[i].name} under 30<br>`);
+                }
+                else
+                {
+                    document.write(`Name : ${users[i].name} older 30<br>`);
+                }
+            }
+        </script>
+    </body>
+    </html>

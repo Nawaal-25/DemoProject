@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const mixedArray = [1, 'apple', true, 4, 'banana', false, 7, 'cherry'];
+        for(let i=0;i<mixedArray.length;i++)
+        {
+            if(mixedArray[i]===false || mixedArray[i]===true )
+            {
+                
+                document.write("Boolean :",mixedArray[i],"<br>");
+            }
+            else if (mixedArray[i]>0)
+            {
+                document.write("Number :",mixedArray[i],"<br>");
+            }
+            else 
+            {
+                document.write("String :",mixedArray[i],"<br>");
+            }
+        }
+    </script>
+</body>
+</html>
